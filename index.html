@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Cozene</div>
+        
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Cozene</h1>
+            
+            <h3>Professional Software Developer</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="assets\download (3).png" alt="download (2).png">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-image">
+            <img src="assets\download (3).png" alt="About Me">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="h2-skills">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Software Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3>web Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+                
+            <!-- Add more skill cards -->
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="h2-education">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Bachelor's in Software Development</h3>
+                <p>University Name (2020-2024)</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Bachelor's in Computer Science</h3>
+                <p>University Name (2024-2025)</p>
+            </div>
+            <!-- Add more timeline items -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="h2-Experience">Experience</h2>
+        <div class="Experience-container">
+            <div class="Experience-card">
+                <h3>Software Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="Experience-card">
+                <h3>Software Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+
+        <!-- Add experience items -->
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2 class="h2-contact form">Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button class="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script>
+        // Navbar scroll effect
+       /// window.addEventListener('scroll', () => {
+           // const navbar = document.querySelector('.navbar');
+           // if (window.scrollY > 50) {
+               // navbar.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.1)';
+            //} else {//
+              //  navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';//
+          //  }//
+       // });
+
+        // Smooth scroll for navigation links
+        //document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          //  anchor.addEventListener('click', function (e) {
+              //  e.preventDefault();
+               // document.querySelector(this.getAttribute('href')).scrollIntoView({
+                   // behavior: 'smooth'
+               // });
+            //});
+        //});
+    </script>
+</body>
+</html>
